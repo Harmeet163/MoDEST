@@ -530,16 +530,12 @@ new page */
     grid-template-columns: auto auto auto;
     gap: 1rem;
 }
-.post img{
-    
-    object-fit: cover;
-
-}
 .post h5{
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 20px;
     color: #ffffff;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    width: 70%;
     margin-bottom: 1rem;
 
 }
@@ -547,6 +543,7 @@ new page */
 .post p{
     font-family: 'Open Sans', sans-serif;
     color: white;
+    width: 70%;
 
 }
 
@@ -671,9 +668,3 @@ form{
     color: white;
   }
   
-
-
-
-
-
-

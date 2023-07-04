@@ -11,6 +11,22 @@
     --meet-2:#3a454d;
 
 }
+
+@media screen and (max-width:1500px){
+    .d-1 input{
+        max-width: 15rem ;
+        gap: 2rem;
+
+    }
+
+}
+
+@media screen and (max-width:1439px){
+    .d-1 input{
+        width: 13rem
+    };
+}
+
 @media screen and (max-width:1350px){
     .container{
         padding: 0 7rem;
@@ -34,9 +50,9 @@
         width: 100%;
         min-height: 20vh;
         display: block;
-        z-index: 8;
+        z-index: 889;
         background-color: var(--nav-color);
-        padding-top: 8rem ;
+        padding-top: 5rem ;
         display: flex;
         flex-direction: column;
         transition: 0.4s;
@@ -45,9 +61,7 @@
      .menu-phone.is-active{
         top: 0;
      }
-     .menu-phone{
-        
-     }
+     
      .menu-phone a{
         color: white;
         text-transform: uppercase;
@@ -80,6 +94,18 @@
          color: white;
        }
 }
+@media screen and (max-width:1215px){
+    .d-1 input{
+        width: 11rem
+    };
+}
+
+@media screen and (max-width:1067px){
+    form{
+        padding: 1rem 1.5rem;
+        bottom: 3%;
+    }
+}
 
 @media screen and (max-width:1000px){
     .final-2   .fa-facebook,
@@ -95,6 +121,7 @@
 }
 
 
+
 @media screen and (max-width:1180px){
     .card{
         height: 60vh;
@@ -108,6 +135,19 @@
         padding: 0 4rem;
     }   
 }
+@media screen and (max-width:1070px){
+    form{
+        padding: 1rem 1.5rem;
+    }
+}
+
+@media screen and (max-width:948px){
+    .d-1 input{
+        width: 9rem
+    };
+
+}
+
 
 @media screen and (max-width:900px){
     .data-2{
@@ -142,7 +182,11 @@
         width: 12rem;
     }
 }
-
+@media screen and (max-width:874px){
+    .d-1 input{
+        width: 8rem
+    };
+}
 
 
 
@@ -171,6 +215,18 @@
   } 
 }
 
+@media screen and (max-width:830px){
+    .last{
+        grid-template-columns: auto auto;
+    }
+    .d-1 input{
+        width: 12rem;
+        margin-right: 1rem;
+    }
+    form{
+        position: relative;
+    }
+}
 
 @media screen and (max-width:800px){
     nav{
@@ -181,6 +237,14 @@
     }
 }
 
+@media screen and (max-width:757px){
+    .last{
+        grid-template-columns: auto;
+    }
+    .foot-1{
+        margin-bottom: 2rem;
+    }
+}
 
 @media screen and (max-width:700px){
 
@@ -212,11 +276,17 @@
 }
 
 @media screen and (max-width:566px){
+    form{
+        padding: 0;
+    }
     
 }
 @media screen and (max-width:500px){
     .container{
-        padding: 0 4rem;
+        padding: 0 2rem;
+    }
+    .m-1 input{
+        width: auto;
     }
 }
 @media screen and (max-width:534px){
@@ -229,6 +299,24 @@
     }
 }
 
+@media screen and (max-width:524px){
+    .foot-1{
+        width: 90%;
+        margin: 2rem auto;
+    }
+    form{
+        width: 90%;
+        margin: auto;
+    }
+    .inone{
+        grid-template-columns: auto;
+       
+    }
+    .d-1{
+        margin-bottom: 2rem;
+    } 
+    
+}
 
 
 @media screen and (max-width:450px){

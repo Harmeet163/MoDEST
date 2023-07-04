@@ -46,9 +46,33 @@
     <!-- nav bar end -->
 
      <!-- part-1  boot -->
-     <div class="part-1">
-        <img src="img/b1.png" alt="">
-    </div>
+     
+    <section class="great container howcan">
+        <div class="part-1">
+            <img src="img/b1.png" alt="" class="img-slider act">
+            <img src="img/b2.jpg" alt="" class="img-slider">
+            <img src="img/b3.jpg" alt="" class="img-slider">
+        </div>
+        <div class="text">
+            <h2>Welcome to our marketplace</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat necessitatibus esse non eius delectus. Exercitationem, dolorum. Nemo dolorum nostrum aperiam nesciunt, corrupti odio sunt!</p>
+            <a href="" >View more</a>
+            <a href="" >Video tour</a>
+        </div>
+        <div class="slider-btn">
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+        
+    </section>
+    
+
+
+
+
+
+     
 
     <!-- part-1 end -->
 
@@ -439,6 +463,32 @@ const mobile_nav=document.querySelector('.menu-phone')
 menu_btn.addEventListener('click',function(){
     menu_btn.classList.toggle('is-active')
     mobile_nav.classList.toggle('is-active')
+})
+
+
+// new image slider
+const bts=document.querySelectorAll(".nav-btn");
+const nice=document.querySelectorAll(".img-slider")
+var slider =function(manual){
+    
+    bts.forEach((btn)=>{
+        btn.classList.remove("act")
+    });
+
+    nice.forEach((slide)=>{
+        slide.classList.remove("act")
+    });
+
+
+
+    bts[manual].classList.add("act");
+    nice[manual].classList.add("act");
+
+}
+bts.forEach((btn , i)=>{
+    btn.addEventListener("click",()=>{
+        slider(i);
+    })
 })
     </script>
 </body>
